@@ -1,3 +1,3 @@
 ## Bienes raices ##
 
-# Trabaj desde cas #
+# Trabaj desde casa #
