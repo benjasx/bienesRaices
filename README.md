@@ -1,4 +1,4 @@
 # Bienes raices #
 
-## Trabajo desde casa ##
-## 👌👌 ##
+## Desde el jale ##
+## 👌👌👌 ##
