@@ -21,18 +21,20 @@
         margin: 0;
     }
 
-    .precio{
-        color: $verde;
-        font-weight: $bold; 
-        font-size: 2.4rem;
-    }
+   
+}
+
+.precio{
+    color: $verde;
+    font-weight: $bold; 
+    font-size: 2.4rem;
 }
 
 .iconos-caracteristicas{
     list-style: none;
     display: flex;
     padding: 0;
-    
+    max-width: 40rem;
     li{
 
         flex: 1; //con esto cada elemento recive 1px de lo que hay disponible gracias a que el padre es flex
