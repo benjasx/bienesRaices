@@ -24,6 +24,8 @@
 }
 
 @mixin boton($bgColor, $display){
+    border: none;
+    cursor: pointer;
     background-color: $bgColor;
     color: $blanco;
     font-weight: $bold;
