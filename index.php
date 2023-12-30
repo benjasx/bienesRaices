@@ -1,5 +1,7 @@
 <?php
-    include './includes/templates/header.php';
+    declare(strict_types=1);
+    require 'includes/funciones.php';
+    incluirTemplate('header', true);
 ?>
     <main class="contenedor seccion">
         <h1>Mas sobre nosotros</h1>
@@ -55,7 +57,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncios.html" class="boton-amarillo-block">Ver propiedad</a>
+                    <a href="anuncios.php" class="boton-amarillo-block">Ver propiedad</a>
                 </div><!-- contenido-anuncio -->
             </div><!-- anuncios -->
 
@@ -87,7 +89,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncios.html" class="boton-amarillo-block">Ver propiedad</a>
+                    <a href="anuncios.php" class="boton-amarillo-block">Ver propiedad</a>
                 </div><!-- contenido-anuncio -->
             </div><!-- anuncios -->
 
@@ -119,13 +121,13 @@
                         </li> <!-- haha -->
                     </ul>
 
-                    <a href="anuncios.html" class="boton-amarillo-block">Ver propiedad</a>
+                    <a href="anuncios.php" class="boton-amarillo-block">Ver propiedad</a>
                 </div><!-- contenido-anuncio -->
             </div><!-- anuncios -->
         </div><!-- contenido-anuncios -->
 
         <div class="alinear-derecha">
-            <a href="anuncios.html" class="boton-verde">Ver todas</a>
+            <a href="anuncios.php" class="boton-verde">Ver todas</a>
         </div>
     </section>
 
@@ -186,18 +188,8 @@
             </div>
         </section>
     </div>
-
-    <footer class="footer seccion">
-        <div class="contenedor contenido-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-            <p class="copyrigth">Todos los derechos reservados 2023 &copy;</p>
-        </div>
-    </footer>
-    <script src="build/js/bundle.min.js"></script>
-</body>
+    <?php
+        incluirTemplate('footer');
+    ?>
+    
 </html>
