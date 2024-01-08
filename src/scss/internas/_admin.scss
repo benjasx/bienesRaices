@@ -1,0 +1,25 @@
+.alerta{
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    
+    &.error{
+        background-color:$rojo;
+    }
+
+    &.exito{
+        background-color: $verde;
+    }
+}
+
+select{
+    width: 100%;
+    padding: 1rem;
+    option{
+        text-align: center;
+        padding: 1rem;
+    }
+}

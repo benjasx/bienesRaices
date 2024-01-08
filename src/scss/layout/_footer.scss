@@ -6,12 +6,19 @@
     .contenido-footer{
         padding-top:calc($separacion / 2);
     }
-
+    
     .navegacion{
-        display:block;
-        
-        a{
-            margin: 0;
+
+        display: block;
+        margin: 0;
+        padding: 0;
+        @include tablet {
+            
+            display:flex;
+            
+            a{
+                margin-right: 1rem;
+            }
         }
     }
 
