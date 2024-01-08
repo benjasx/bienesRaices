@@ -1,6 +1,36 @@
+.navdark{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    @include tablet {
+        flex-direction: row;
+    }
+}
+.dark-mode-btn{
+    margin-left: 1rem;
+    max-width: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    filter: invert(100%);
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    @include tablet {
+        max-width: 3rem;
+    }
+}
+
 .barra{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
     @include tablet {
         flex-direction: row;
         justify-content: space-between;
@@ -9,10 +39,12 @@
 
 
 .navegacion{
+    display: none;
     
     @include tablet {
         display: flex;
         align-items: center;
+        
     }
 
     a{
@@ -36,4 +68,37 @@
         }
     }
 
+}
+
+/*  MENU DE HAMBURGESA */
+.mobile-menu{
+    
+    @include tablet {
+        display: none;
+    }
+
+    img{
+        width: 5rem;
+    }
+}
+
+.mostrar{
+    display: block;
+    padding: 1.5rem 0 0 2rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #000000ee;
+    width: 70%;
+    margin: 0;
+    left: 0;
+
+    @include tablet {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: transparent;
+    
+    }
 }

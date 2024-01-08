@@ -1,48 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    
-    <header class="header inicio">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="/">
-                    <img src="build/img/logo.svg" alt="Logo">
-                </a>
-
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">Anuncios</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
-            </div> <!-- Cierre de la barra -->
-
-            <h1>Venta de casas y departamentos exclucivos de lujo 🏡</h1>
-        </div>
-    </header>
-
+<?php
+    declare(strict_types=1);
+    require 'includes/funciones.php';
+    incluirTemplate('header', true);
+?>
     <main class="contenedor seccion">
         <h1>Mas sobre nosotros</h1>
 
         <div class="icono-nosotros">
             <div class="icono">
-                <img src="build/img/icono1.svg" alt="Icono img" loading="lazy">
+                <img  src="build/img/icono1.svg" alt="Icono img" loading="lazy">
                 <h3>Seguridad</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, consequuntur non commodi explicabo adipisci possimus ipsam quisquam eveniet, accusamus dolorum quam optio repudiandae sit illo tempora officiis, voluptate deleniti!</p>
             </div>
             <di class="icono">
-                <img src="build/img/icono2.svg" alt="Icono img" loading="lazy">
+                <img  src="build/img/icono2.svg" alt="Icono img" loading="lazy">
                 <h3>Precio</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, consequuntur non commodi explicabo adipisci possimus ipsam quisquam eveniet, accusamus dolorum quam optio repudiandae sit illo tempora officiis, voluptate deleniti!</p>
             </di>
             <di class="icono">
-                <img src="build/img/icono3.svg" alt="Icono img" loading="lazy">
+                <img  src="build/img/icono3.svg" alt="Icono img" loading="lazy">
                 <h3>Tiempo</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim, consequuntur non commodi explicabo adipisci possimus ipsam quisquam eveniet, accusamus dolorum quam optio repudiandae sit illo tempora officiis, voluptate deleniti!</p>
             </di>
@@ -68,20 +44,20 @@
                     </p>
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="Icono wc">
+                            <img class="darkico" loading="lazy" src="build/img/icono_wc.svg" alt="Icono wc">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono estacionamiento">
+                            <img class="darkico" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono estacionamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono dormitorio">
+                            <img class="darkico" loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono dormitorio">
                             <p>4</p>
                         </li>
                     </ul>
 
-                    <a href="anuncios.html" class="boton-amarillo-block">Ver propiedad</a>
+                    <a href="anuncios.php" class="boton-amarillo-block">Ver propiedad</a>
                 </div><!-- contenido-anuncio -->
             </div><!-- anuncios -->
 
@@ -100,20 +76,20 @@
                     </p>
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="Icono wc">
+                            <img class="darkico" loading="lazy" src="build/img/icono_wc.svg" alt="Icono wc">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono estacionamiento">
+                            <img class="darkico" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono estacionamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono dormitorio">
+                            <img class="darkico" loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono dormitorio">
                             <p>4</p>
                         </li>
                     </ul>
 
-                    <a href="anuncios.html" class="boton-amarillo-block">Ver propiedad</a>
+                    <a href="anuncios.php" class="boton-amarillo-block">Ver propiedad</a>
                 </div><!-- contenido-anuncio -->
             </div><!-- anuncios -->
 
@@ -132,33 +108,33 @@
                     </p>
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img loading="lazy" src="build/img/icono_wc.svg" alt="Icono wc">
+                            <img class="darkico" loading="lazy" src="build/img/icono_wc.svg" alt="Icono wc">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono estacionamiento">
+                            <img class="darkico" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono estacionamiento">
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono dormitorio">
+                            <img class="darkico" loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono dormitorio">
                             <p>4</p>
                         </li> <!-- haha -->
                     </ul>
 
-                    <a href="anuncios.html" class="boton-amarillo-block">Ver propiedad</a>
+                    <a href="anuncios.php" class="boton-amarillo-block">Ver propiedad</a>
                 </div><!-- contenido-anuncio -->
             </div><!-- anuncios -->
         </div><!-- contenido-anuncios -->
 
         <div class="alinear-derecha">
-            <a href="anuncios.html" class="boton-verde">Ver todas</a>
+            <a href="anuncios.php" class="boton-verde">Ver todas</a>
         </div>
     </section>
 
     <section class="imagen-contacto">
         <h2>Encuentra la casa de tus sueños</h2>
         <p>Llena el formulario y uno de nuestros asesores se pondra en contacto usted.</p>
-        <a href="contacto.html" class="boton-amarillo">Contactanos</a>
+        <a href="contacto.php" class="boton-amarillo">Contactanos</a>
     </section>
 
 
@@ -212,18 +188,8 @@
             </div>
         </section>
     </div>
-
-    <footer class="footer seccion">
-        <div class="contenedor contenido-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-            <p class="copyrigth">Todos los derechos reservados 2023 &copy;</p>
-        </div>
-    </footer>
-    <script src="build/js/bundle.min.js"></script>
-</body>
+    <?php
+        incluirTemplate('footer');
+    ?>
+    
 </html>
